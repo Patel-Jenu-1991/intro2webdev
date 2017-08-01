@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Contact Us</title>
+        <style>
+            body {
+                font-family: sans-serif;
+            }
+
+            label {
+                display: inline-block;
+                text-align: right;
+                width: 7.4em;
+                margin-top: 1em;
+                margin-right: 1em;
+            }
+
+            input#fname, input#lname, input#email {
+                width: 13.5em;
+                border: 2px solid #000;
+            }
+
+            select {
+                font-size: 90%;
+                width: 13em;
+                border: 2px solid #000;
+                border-radius: 5px;
+            }
+
+            textarea {
+                width: 13.5em;
+                margin-top: 1em;
+                vertical-align: top;
+                border: 2px solid #000;
+            }
+
+            input#terms {
+                outline: 2px solid #000;
+                margin-top: 1em;
+                margin-left: 10.5em;
+            }
+
+            button {
+                font-weight: bold;
+                margin-top: 1em;
+                margin-left: 12em;
+                border: 2px solid #000;
+                padding-left: 1em;
+                padding-right: 1em;
+                border-radius: 4px;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <form action="#" method="post">
+            <div>
+            <label id="Fname" for="firstName">First Name: </label>
+            <input id="fname" name="fname" type="text" /><br />
+
+            <label id="Lname" for="lastName">Last Name: </label>
+            <input id="lname" name="lname" type="text" /><br />
+
+            <label id="Email" for="Email">Email: </label>
+            <input id="email" name="email" type="email" /><br />
+
+            <label id="Licence" for="Licence">Type of Licence: </label>
+            <input id="licence" name="licence" type="radio" checked /> Business
+            <input id="licence1" name="licence" type="radio" /> Personal<br />
+
+            <label id="Reason" for="Reason">Reason: </label>
+            <select id="reason" name="bigReason">
+                <option value="options">Select a Reason</option>
+                <option value="software">Software Support</option>
+                <option value="hardware">Hardware Support</option>
+                <option value="infoRequest">Information Request</option>
+            </select><br />
+
+            <label id="AddlInfo" for="addlInfo">Additional Info: </label>
+            <textarea id="addlInfo" rows="5"></textarea><br />
+
+            <input id="terms" name="terms" type="checkbox" value="Yes">I have read the terms of service.<br />
+
+            <button>Send Request</button>
+            </div>
+        </form>
+
+    </body>
+</html>

@@ -1,0 +1,21 @@
+/* CSS FOR MENU PAGE BEGINS HERE */
+
+main section#menuTop {
+    column-count: 3;
+    text-align: center;
+}
+
+main section#menuTop article#burger {
+    margin-top: -1.2em;
+}
+
+main section#menuBottom {
+    margin-top: 0.5em;
+    column-count: 3;
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+
+
+/* CSS FOR MENU PAGE ENDS HERE */

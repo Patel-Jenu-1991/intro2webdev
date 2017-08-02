@@ -1,0 +1,49 @@
+/*
+    Stylesheet for RestaurantSite V1
+*/
+
+/* CSS FOR DEFAULT PAGE STYLE STARTS HERE */
+
+body {
+    font-family: sans-serif;
+    background: hsla(300, 10%, 10%, 0.4);
+}
+
+header#pageHeader h1 {
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.1em #ccc;
+    color: rgba(0, 0, 0, 0.5);
+    background: hsla(200, 20%, 20%, 0.25);
+    margin-top: 0;
+    border: .2em solid #000;
+}
+
+a.navi {
+    padding: 0.5em 1em;
+    word-wrap: normal;
+    display: inline-block;
+}
+
+main#home figure{
+    padding-top: 0.5em;
+    text-align: center;
+}
+
+main#home figure img {
+    border: .1em solid #000;
+}
+
+main#home article {
+    margin-left: 18.5em;
+    padding: 0.5em;
+    width: 38.7%;
+    border: .1em solid #000;
+}
+
+footer#pageFooter {
+    margin-top: 2em;
+    text-align: center;
+}
+
+/* CSS FOR DEFAULT PAGE STYLE ENDS HERE */

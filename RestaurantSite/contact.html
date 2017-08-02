@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Central Perk - Home Page</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/styleForm.css" />
+    </head>
+    <body>
+
+        <header id="pageHeader">
+            <h1>Central Perk</h1>
+        </header>
+
+        <hr />
+            <a class="navi" href="index.html">Home</a>
+            <a class="navi" href="menu.html">Menu</a>
+            <a class="navi" href="#">Contact</a>
+        <hr />
+
+        <main>
+            <form action="#" method="post">
+                <label id="Name" for="Name">Name: </label>
+                <input id="name" name="name" type="text" /><br />
+
+                <label id="Email" for="Email">Email: </label>
+                <input id="email" name="email" type="email" /><br />
+
+                <label id="Phone" for="Phone">Phone: </label>
+                <input id="phone" name="phone" type="tel" /><br />
+
+                <label id="Inquiry" for="Inquiry">Reason for Inquiry: </label>
+                <select id="inquiry" name="inquiry">
+                    <option value="catering" selected>Catering</option>
+                    <option value="private_party">Private Party</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="other">Other</option>
+                </select><br />
+
+                <label id="AddInfo" for="Info">Additional Information: </label>
+                <textarea id="addlInfo" name="addlInfo" rows="5" cols="23">
+                </textarea>
+                <br />
+
+                <label id="Visited" for="Visited">
+                    Have you been to the restaurant?
+                </label>
+                <input id="radio2" name="visited" type="radio" value="No" />No
+                &nbsp;
+                <input id="radio1" name="visited" type="radio" value="Yes" />Yes
+                <br />
+
+                <label id="Contact" for="Contact">
+                    Best days to contact you:
+                </label>
+                <input id="mon" name="mon" type="checkbox" value="Mon" />M
+                <input id="tue" name="tue" type="checkbox" value="Tue" />T
+                <input id="wed" name="wed" type="checkbox" value="Wed" />W
+                <input id="thu" name="thu" type="checkbox" value="Thu" />Th
+                <input id="fri" name="fri" type="checkbox" value="Fri" />F
+                <br />
+
+                <button id="btn">Send Request</button>
+            </form>
+        </main>
+
+        <footer id="pageFooter">
+            <hr />
+            <address>
+                Location: 9009 Richmond Avenue, Houston, Texas, 77063<br />
+                Phone: +1 505-420-1991
+            </address>
+        </footer>
+
+    </body>
+</html>

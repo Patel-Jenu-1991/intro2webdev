@@ -1,0 +1,49 @@
+/* Stylesheet for styling form on contact page */
+
+main form {
+    margin-top: 2em;
+}
+
+main form label {
+    display: inline-block;
+    text-align: right;
+    width: 16em;
+    margin-top: 1em;
+    margin-right: 2em;
+}
+
+input#name, input#email, input#phone {
+    width: 15.2em;
+    border: .1em solid #000;
+}
+
+input#mon, input#tue, input#wed, input#thu, input#fri {
+    outline: .1em solid #000;
+    outline-offset: -.1em;
+}
+
+input#tue, input#wed, input#thu, input#fri {
+    margin-left: .7em;
+}
+
+select#inquiry {
+    font-size: 90%;
+    width: 14.2em;
+    border: .1em solid #000;
+}
+
+main form textarea {
+    margin-top: 1em;
+    vertical-align: top;
+    border: .1em solid #000;
+}
+
+button#btn {
+    font-weight: bold;
+    margin-top: 1.4em;
+    margin-left: 29.8em;
+    padding-top: .4em;
+    padding-bottom: .2em;
+    border: .1em solid #000;
+    border-radius: .3em;
+}

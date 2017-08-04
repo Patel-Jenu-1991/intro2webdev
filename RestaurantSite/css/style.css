@@ -25,6 +25,18 @@ a.navi {
     display: inline-block;
 }
 
+a.navi:active {
+    text-decoration: none;
+}
+
+a.navi:visited {
+    color: #5f2;
+}
+
+a.navi:hover {
+    font-weight: bold;
+}
+
 main#home figure{
     padding-top: 0.5em;
     text-align: center;

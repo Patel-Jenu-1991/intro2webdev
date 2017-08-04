@@ -16,6 +16,26 @@ main section#menuBottom {
     margin-bottom: 5em;
 }
 
+section#beverages {
+    margin-left: 20em;
+}
 
+section#beverages table {
+    width: 50%;
+    text-align: center;
+}
+
+section#beverages table th {
+    background-color: #000;
+    color: #fff;
+}
+
+section#beverages table tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+section#beverages table tr:nth-child(odd) {
+    background-color: rgba(255, 255, 255, 0.7);
+}
 
 /* CSS FOR MENU PAGE ENDS HERE */
